@@ -1,4 +1,4 @@
-FROM moesif.azurecr.io/ghrunner:jenkins_drone
+FROM balnazarr/jenkins_drone:latest
 
 COPY entrypoint.sh /entrypoint.sh
 COPY resolv.conf /etc/resolv.conf
